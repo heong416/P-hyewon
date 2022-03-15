@@ -129,7 +129,6 @@
     font-weight: 500;
     src: local('※'),
         url('leferiBaseRegular.otf') format('opentype'),
-        url('leferiBaseRegular.eot') format('embedded-opentype');
 }
 
 @font-face {
@@ -138,7 +137,6 @@
     font-weight: 900;
     src: local('※'),
         url('leferiBaseBOld.otf') format('opentype'),
-        url('leferiBaseBOld.eot') format('embedded-opentype');
 }
 
 @font-face {
@@ -147,7 +145,6 @@
     font-weight: 500;
     src: local('※'),
         url('leferiPointWhite.otf') format('opentype'),
-        url('leferiPointWhite.eot') format('embedded-opentype');
 }
 
 @font-face {
@@ -156,7 +153,6 @@
     font-weight: 500;
     src: local('※'),
         url('leferiPointWhite.otf') format('opentype'),
-        url('leferiPointWhite.eot') format('embedded-opentype');
 }
 
 @font-face {
@@ -165,7 +161,6 @@
     font-weight: 500;
     src: local('※'),
         url('leferiPointSpecial.otf') format('opentype'),
-        url('leferiPointSpecial.eot') format('embedded-opentype');
 }
 
 @font-face {
@@ -174,7 +169,6 @@
     font-weight: 500;
     src: local('※'),
         url('leferiPointSpecialItalic.otf') format('opentype'),
-        url('leferiPointSpecialItalic.eot') format('embedded-opentype');
 }
 
 @font-face {
@@ -183,7 +177,6 @@
     font-weight: 900;
     src: local('※'),
         url('leferiPointBlack.otf') format('opentype'),
-        url('leferiPointBlack.eot') format('embedded-opentype');
 }
 
 @font-face {
@@ -192,7 +185,6 @@
     font-weight: 900;
     src: local('※'),
         url('leferiPointBlackOblique.otf') format('opentype'),
-        url('leferiPointBlackOblique.eot') format('embedded-opentype');
 }
 
 
