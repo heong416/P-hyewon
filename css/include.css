@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+#header{
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    z-index: 999999;
+}
+
+.hWrap{position: relative;}
+.logo{
+    position: absolute;
+    left: 5%;
+    padding-top: 16px;
+}
+
+.gnb{
+    text-align: center;
+}
+.gnb li{
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-right: 60px;
+}
+.gnb li a{color: #999;}
+.gnb li:hover a{color: #344452;}
+.gnb li a{transition: color 0.4s;}
+
+
+
+
+
+/*푸터*/
+#footer{
+    width: 100%;
+    padding-top: 170px;
+}
+footer img{width: 100%; display: block;}

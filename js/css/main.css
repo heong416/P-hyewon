@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+
+a{outline: none;}
+
+
+/*웹리스트 슬라이드*/
+.web{position: relative;}
+.web .slideBtn{
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    display: inline-block;
+    z-index: 999;
+    cursor: pointer;
+}
+.web .slideNext{
+    right: -28px;
+}
+.web .slidePrev{
+    left: -28px;
+}
+
+
+
+/*그래픽리스트 슬라이드*/
+.graphic{position: relative;}
+.graphic .slideBtn{
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    display: inline-block;
+    z-index: 999;
+    cursor: pointer;
+}
+.graphic .slideNext{
+    right: -28px;
+}
+.graphic .slidePrev{
+    left: -28px;
+}
+
+
+
+
+
+
+
+/*모바일 웹 리스트 슬라이드*/
+.mWeb{position: relative;}
+.mWeb .slideBtn img{width: 40%}
+.mWeb .slideBtn{
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    display: inline-block;
+    z-index: 999;
+}
+.mWeb .slideNext{
+    right: -40px;
+}
+.mWeb .slidePrev{
+    left: -40px;
+}
+
+/*모바일 그래픽 리스트 슬라이드*/
+.mGraphic{position: relative;}
+.mGraphic .slideBtn img{width: 40%}
+.mGraphic .slideBtn{
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    display: inline-block;
+    z-index: 999;
+}
+.mGraphic .slideNext{
+    right: -40px;
+}
+.mGraphic .slidePrev{
+    left: -40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    

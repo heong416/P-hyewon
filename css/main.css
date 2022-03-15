@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+
+
+.container{}
+
+
+/*메인페이지*/
+.mainPage{
+    padding-top: 240px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+.mainTxt01{
+    position: relative; 
+    height: 1200px;
+}
+.mainTxt01 h2{
+    padding-top: 30px;
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+.wagen{padding-top: 100px;}
+.quotes01{margin-right: 600px;}
+.quotes02{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    padding-top: 100px;
+    display: block;
+    margin-left: 600px;
+}
+
+.mainTxt02{
+    padding-top: 460px;
+    font-size: 2.2rem;
+}
+.mainTxt02 span{
+    display: block;
+    padding-top: 40px;
+}
+
+.mainBg{
+    position: absolute;
+    top: 30%;
+    left: 58%;
+    z-index: -9999;
+}
+.mainBg img{width: 100%;}
+
+
+
+/*프로필*/
+#profile{padding-top: 180px;}
+.profile{
+    padding-bottom: 300px;
+}
+.profileImg{
+    width: 18%;
+    margin-left: 15%;
+    float: left;
+}
+.profileImg img{width: 100%;}
+
+.profileTxt{
+    width: 62%;
+    margin-left: 5%;
+    float: left;
+}
+.profileTxt>h2{
+    padding-bottom: 40px;
+    font-size: 2.4rem;
+    font-weight: 100;
+}
+.profileTxt>h2::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #999;
+    margin-top: 30px;
+}
+
+.profileTxt01 h2, .profileTxt03 h2{
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.profileTxt01{
+    margin-right: 7%;
+    float: left;
+}
+.profileTxt01 h2{}
+
+.profileTxt01List{}
+.profileTxt01List li{
+    font-size: 1.6rem;
+    line-height: 30px;
+}
+
+.profileTxt02{
+    font-size: 1.6rem;
+}
+.profileTxt02 h2{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.profileTxt02 p{line-height: 16px;}
+.profileTxt02 span{
+    display: block;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.profileTxt03{padding-top:50px;}
+.profileTxt03 h2{}
+
+.profileTxt03List{}
+.profileTxt03List li{
+    display: inline-block;
+    padding-right: 2%;
+}
+.profileTxt03List li img{width: 100%;}
+
+
+
+
+/*웹 리스트*/
+#web{padding-top: 150px;}
+.web{
+    padding: 0 15%;
+    padding-bottom: 300px;
+}
+.web h2{
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 80px;
+}
+
+.webList{
+    font-family: 'leferiSpItalic';
+    text-align: center;
+}
+.webList li{
+    height: 600px;
+    background: #333;
+    border-radius: 30px;
+}
+.webList li{
+    margin: 0 15px;
+}
+.webList li>p{
+    color: #fff;
+    font-size: 2.4rem;
+}
+.topImg{
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.listMainImg{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+.webList li p{}
+
+.iconWrap{
+    padding-top: 20px;
+}
+.iconWrap img{margin: 0 auto;}
+.iconWrap a{color: #fff; font-size: 1.4rem;}
+.iconWrap p{
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 10px;
+    font-family: 'leferiWh';
+}
+.off{}
+.on{}
+
+.detailsIcon{
+    padding: 0 20px;
+    display: inline-block;
+}
+.detailsIcon a{}
+.detailsIcon img{}
+.detailsIcon p{}
+
+.deskTopIcon{
+    padding: 0 20px;
+    display: inline-block
+}
+.deskTopIcon a{}
+.deskTopIcon img{}
+.deskTopIcon p{}
+
+
+.mobileIcon{
+    padding: 0 20px;
+    display: inline-block;
+}
+.mobileIcon{cursor: pointer;}
+.mobileIcon a{}
+.mobileIcon img{}
+.mobileIcon p{}
+
+
+
+
+
+
+
+/*그래픽 리스트*/
+#graphic{padding-top: 180px;}
+.graphic{
+    padding: 0 15%;
+    text-align: center;
+    padding-bottom: 300px;}
+
+.graphic h2{
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 80px;
+}
+
+.graphic ul{}
+.graphic ul li{
+    height: 450px;
+    background: #333;
+    border-radius: 30px;
+    width: 450px;
+    margin: 15px;
+}
+.graphic ul li p{
+    padding-top: 160px;
+    font-size: 3.5rem;
+    color: #fff;
+    font-family: 'leferiSpItalic';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

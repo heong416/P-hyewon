@@ -1,0 +1,296 @@
+@charset "utf-8";
+/*웹뷰 안보임처리*/
+.webList .mTopImg, .mMainPage, .mProfile, .mWeb, .mGraphic, .mFooter{display: none;}
+
+
+
+
+
+
+@media screen and (max-width: 1400px){
+    /*리셋*/
+    body{min-width: auto;}
+    .inner{width: auto;}
+    
+    /*웹리스트*/
+    .webList li>p{
+        color: #fff;
+        font-size: 1.8rem;
+    }
+    .webList li{height: 480px; border-radius: 25px;}
+}
+
+
+@media screen and (max-width: 1050px){
+    
+    /*리셋*/
+    body{min-width: auto;}
+    .inner{width: auto;}
+    
+    /*안보임처리*/
+    .webList .topImg{display: none;}
+    
+    /*보임처리*/
+    .webList .mTopImg{display: inline-block;}
+    
+    /*웹리스트*/
+    .webList li{height: 400px;}
+    .webList li>p{font-size: 1.6rem;}
+    .mTopImg{padding-top: 40px;}
+    .iconWrap p{font-size: 1rem;}
+    .deskTopIcon, .mobileIcon, .detailsIcon{padding: 0 10px;}
+}
+
+
+@media screen and (max-width: 768px){
+    
+    /*리셋*/
+    body{min-width: auto;}
+    .inner{width: auto;}
+    
+    /*안보임처리*/
+    .profile, .web, .quotes01, .quotes02, .wagen , .footer01, .mainPage, .graphic{display: none;}
+    
+    /*보임처리*/
+    .mMainPage, .mProfile, .mWeb, .mGraphic, .mFooter{display: block;}
+    
+    
+    /*헤더*/
+    #header{
+        height: 60px;
+        line-height: 60px;
+    }
+    .logo{
+        padding-top: 7px;
+        left: 5%;
+    }
+    .logo img{width: 45px;}
+    .gnb li{
+        font-size: 1.4rem;
+        display: inline-block;
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    .gnb li:first-child{display: none;}
+    
+    
+    
+    /*메인*/
+    .mMainPage{
+        text-align: center;
+        padding-top: 220px;
+    }
+    .mMainTxt{height: 850px;}
+    .mQuotes01{text-align: left; margin-left: 5%;}
+    .mQuotes01 img{width: 13%;}
+    .mWagen{
+        padding-top: 60px;
+        width: 65%;
+    }
+    .mMainTxt h2{padding-top: 35px;}
+    .mMainTxt h2 img{width: 40%;}
+    .mQuotes02{
+        text-align: right;
+        margin-right: 5%;
+        position: -webkit-sticky;
+        position: sticky;
+        padding-top: 60px;
+        top: 300px;
+        display: block;
+    }
+    .mQuotes02 img{ width: 13%;}
+    
+    .msubTxt{
+        padding-top: 390px;
+        font-size: 1.6rem;
+        line-height: 16px;
+    }
+    .msubTxt span{
+        display: block;
+        padding-top: 20px;
+    }
+    .mMainBg{
+        position: absolute;
+        right: -250px;
+        top: 196px;
+        z-index: -9999;
+    }
+    .mMainBg img{width: 55%;}
+    
+    
+    
+    /*프로필*/
+    #profile{padding-top: 240px;}
+    .mProfile h2, .mProfile h4{
+        font-family: 'leferiSp'; 
+        font-size: 2.2rem; 
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    .mProfile p, .mProfile span{font-family: 'leferiWh';}
+    .mProfile p{font-size: 1.4rem;}
+    .mProfile span{color: #666;}
+    .mProfile{
+        text-align: center;
+        position: relative;
+        background: #333;
+        color: #fff;
+        padding-bottom: 80px;
+    }
+    .mProfileImg{
+        position: absolute;
+        top: -150px;
+        left: 50%;
+        margin-left: -125px;
+    }
+    .mProfile h4{
+        font-family: 'leferiWh';
+        padding-top: 220px;
+        font-size: 1.6rem;
+    }
+    
+    .mProfileTxt01 h2{padding-bottom: 40px;}
+    .mProfileTxt01List li{padding: 8px 0;}
+    .mProfileTxt01List li span{line-height: 0; display: block;}
+    .mProfileTxt01List li p{line-height: 13px;}
+    
+    .mProfileTxt02 span{font-size: 1.2rem; display: block; padding-top: 5px;}
+    
+    .mProfileTxt03List li{
+        margin-top: 10px;
+        padding: 0 4px;
+        display: inline-block;
+    }
+    
+    
+    /*웹리스트*/
+    #web{padding-top: 100px;}
+    .mWeb{
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    .mWeb h2{
+        font-size: 3rem;
+        padding-bottom: 45px;
+    }
+    
+    .mWebList{
+        margin: 0 10%;
+    }
+    .mWebList li{
+        margin: 0 10px;
+        background: #f9f9f9;
+        border-radius: 30px;
+        height: auto;
+    }
+    .mTopImg{
+        display: block;
+        margin: 0 auto;
+        width: 40%;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .mListMainImg{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    .mWebList li>p{
+        font-family: 'leferiSpItalic';
+        font-size: 2rem;
+        line-height: 0;
+        padding-top: 8px;
+        padding-bottom: 30px;
+    }
+    
+    .mIconWrap{}
+    .mIconWrap p{font-family: 'leferiWh'; line-height: 0; padding-top: 5px;}
+    .mDetailsIcon, .mDeskTopIcon, .mMobileIcon{
+        padding: 0 10px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*그래픽*/
+    #graphic{padding-top: 120px;}
+    .mGraphic{
+        padding-bottom: 180px;
+        text-align: center;
+    }
+    .mGraphic h2{font-size: 3rem; padding-bottom: 30px;}
+    .mGraphic ul{margin: 0 10%;}
+    .mGraphic ul li{
+        margin: 0 10px;
+        background: #f9f9f9;
+        border-radius: 30px;
+        height: 300px;
+    }
+    .mGraphic ul li p{
+        font-size: 2.5rem;
+        padding-top: 100px;
+        font-family: 'leferiSpItalic';
+    }
+    
+    
+    /*푸터*/
+    #footer{
+        padding-top: 0;
+    }
+    .mFooter{}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
