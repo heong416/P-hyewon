@@ -49,7 +49,7 @@
     .inner{width: auto;}
     
     /*안보임처리*/
-    .profile, .web, .quotes01, .quotes02, .wagen , .footer01, .mainPage, .graphic{display: none;}
+    .profile, .web, .mainBg .quotes01, .quotes02, .wagen , .footer01, .mainPage, .graphic{display: none;}
     
     /*보임처리*/
     .mMainPage, .mProfile, .mWeb, .mGraphic, .mFooter{display: block;}
