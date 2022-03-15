@@ -129,7 +129,7 @@
     font-weight: 500;
     src: local('※'),
         url('leferiBaseRegular.otf') format('opentype'),
-        url('leferiBaseRegular.ttf') format('truetype'),
+        url('leferiBaseRegular.ttf') format('truetype');
 }
 
 @font-face {
@@ -138,7 +138,7 @@
     font-weight: 900;
     src: local('※'),
         url('leferiBaseBOld.otf') format('opentype'),
-        url('leferiBaseBOld.ttf') format('truetype'),
+        url('leferiBaseBOld.ttf') format('truetype');
 }
 
 @font-face {
@@ -147,7 +147,7 @@
     font-weight: 500;
     src: local('※'),
         url('leferiPointWhite.otf') format('opentype'),
-        url('leferiPointWhite.ttf') format('truetype'),
+        url('leferiPointWhite.ttf') format('truetype');
 }
 
 @font-face {
@@ -156,7 +156,7 @@
     font-weight: 500;
     src: local('※'),
         url('leferiPointWhite.otf') format('opentype'),
-       url('leferiPointWhite.ttf') format('truetype'),
+       url('leferiPointWhite.ttf') format('truetype');
 }
 
 @font-face {
@@ -165,7 +165,7 @@
     font-weight: 500;
     src: local('※'),
         url('leferiPointSpecial.otf') format('opentype'),
-        url('leferiPointSpecial.ttf') format('truetype'),
+        url('leferiPointSpecial.ttf') format('truetype');
 }
 
 @font-face {
@@ -174,7 +174,7 @@
     font-weight: 500;
     src: local('※'),
         url('leferiPointSpecialItalic.otf') format('opentype'),
-        url('leferiPointSpecialItalic.ttf') format('truetype'),
+        url('leferiPointSpecialItalic.ttf') format('truetype');
 }
 
 @font-face {
@@ -183,7 +183,7 @@
     font-weight: 900;
     src: local('※'),
         url('leferiPointBlack.otf') format('opentype'),
-        url('leferiPointBlack.ttf') format('truetype'),
+        url('leferiPointBlack.ttf') format('truetype');
 }
 
 @font-face {
@@ -192,7 +192,7 @@
     font-weight: 900;
     src: local('※'),
         url('leferiPointBlackOblique.otf') format('opentype'),
-        url('leferiPointBlackOblique.ttf') format('truetype'),
+        url('leferiPointBlackOblique.ttf') format('truetype');
 }
 
 
