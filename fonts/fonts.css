@@ -127,7 +127,7 @@
     font-family: 'leferiBase';
     font-style: normal;
     font-weight: 500;
-    src: local('※'),
+    src: local('leferiBase'),
         url('leferiBaseRegular.otf') format('opentype'),
         url('leferiBaseRegular.ttf') format('truetype');
 }
@@ -136,7 +136,7 @@
     font-family: 'leferiBase';
     font-style: normal;
     font-weight: 900;
-    src: local('※'),
+    src: local('leferiBase'),
         url('leferiBaseBOld.otf') format('opentype'),
         url('leferiBaseBOld.ttf') format('truetype');
 }
@@ -145,7 +145,7 @@
     font-family: 'leferiWh';
     font-style: normal;
     font-weight: 500;
-    src: local('※'),
+    src: local('leferiWh'),
         url('leferiPointWhite.otf') format('opentype'),
         url('leferiPointWhite.ttf') format('truetype');
 }
@@ -154,7 +154,7 @@
     font-family: 'leferiWh';
     font-style: normal;
     font-weight: 500;
-    src: local('※'),
+    src: local('leferiWh'),
         url('leferiPointWhite.otf') format('opentype'),
        url('leferiPointWhite.ttf') format('truetype');
 }
@@ -163,7 +163,7 @@
     font-family: 'leferiSp';
     font-style: normal;
     font-weight: 500;
-    src: local('※'),
+    src: local('leferiSp'),
         url('leferiPointSpecial.otf') format('opentype'),
         url('leferiPointSpecial.ttf') format('truetype');
 }
@@ -172,7 +172,7 @@
     font-family: 'leferiSpItalic';
     font-style: normal;
     font-weight: 500;
-    src: local('※'),
+    src: local('leferiSpItalic'),
         url('leferiPointSpecialItalic.otf') format('opentype'),
         url('leferiPointSpecialItalic.ttf') format('truetype');
 }
@@ -181,7 +181,7 @@
     font-family: 'leferiBl';
     font-style: normal;
     font-weight: 900;
-    src: local('※'),
+    src: local('leferiBl'),
         url('leferiPointBlack.otf') format('opentype'),
         url('leferiPointBlack.ttf') format('truetype');
 }
@@ -190,7 +190,7 @@
     font-family: 'leferiBlOblique';
     font-style: normal;
     font-weight: 900;
-    src: local('※'),
+    src: local('leferiBlOblique'),
         url('leferiPointBlackOblique.otf') format('opentype'),
         url('leferiPointBlackOblique.ttf') format('truetype');
 }
